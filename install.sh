@@ -1,4 +1,4 @@
-!# /bin/bash
+#!/bin/bash
 
 echo ">installing core deps"
 # write down all the needed scripts
