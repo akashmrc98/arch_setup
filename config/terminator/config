@@ -1,0 +1,32 @@
+[global_config]
+  window_state = hidden
+  title_use_system_font = False
+  title_font = Open Sans 14
+  putty_paste_style = True
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#282828"
+    background_darkness = 1
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = Open Sans 12
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    use_custom_command = True
+    custom_command = fish
+    use_system_font = False
+    copy_on_selection = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

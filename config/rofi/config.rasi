@@ -1,0 +1,7 @@
+/** Basic config file **/
+
+configuration {
+  font: "Open Sans 11";
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
