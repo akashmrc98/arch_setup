@@ -3,8 +3,8 @@
 echo ">installing core deps"
 # write down all the needed scripts
 # installing core dependencies 
-# terminiator, neofetch, vim, make, fish, i3, rofi, polybar, nitrogen, picom, dunst
-sudo pacman -Syu teriminator neofetch vim make fish i3 rofi polybar nitrogen picom dunst
+# termniator, neofetch, vim, make, fish, i3, rofi, polybar, nitrogen, picom, dunst
+sudo pacman -Syu terminator neofetch vim make fish i3 rofi polybar nitrogen picom dunst
 
 echo ">linking --classic snap"
 # link snap --classic lib
@@ -60,6 +60,7 @@ do
 done
 
 echo ">coping fonts"
+
 copy_dir=$HOME/.local/share/fonts
 search_dir=$(pwd)
 for entry in "$search_dir"/fonts/*
