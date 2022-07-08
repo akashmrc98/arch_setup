@@ -4,7 +4,7 @@ echo ">installing core deps"
 # write down all the needed scripts
 # installing core dependencies 
 # termniator, neofetch, vim, make, fish, i3, rofi, polybar, nitrogen, picom, dunst
-sudo pacman -Syu terminator neofetch vim make fish i3 rofi polybar nitrogen picom dunst
+sudo pacman -Syu terminator neofetch vim make fish i3 rofi polybar nitrogen picom dunst glances
 
 echo ">linking --classic snap"
 # link snap --classic lib
