@@ -5,6 +5,7 @@ echo ">installing core deps"
 # installing core dependencies 
 # termniator, neofetch, vim, make, fish, i3, rofi, polybar, nitrogen, picom, dunst
 sudo pacman -Syu terminator neofetch vim make fish i3 rofi polybar nitrogen picom dunst glances
+sudo pacman -Syu haveged && sudo systemctl enable --now haveged
 
 echo ">linking --classic snap"
 # link snap --classic lib
@@ -23,8 +24,8 @@ sudo snap install docker
 sudo snap install openjdk
 		
 echo ">installing utils"
-# install snap utils 
 # install utils
+sudo snap install discord
 sudo snap install spotify
 sudo snap install vlc
 sudo snap install easy-disk-cleaner
